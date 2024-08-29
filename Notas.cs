@@ -20,7 +20,7 @@ namespace RevNotas
         }
         public double MediaNotas()
         {
-            return (Nota1  * 0.30)+ (Nota2 * 0.35) + (Nota3 * 0.35) / 3;
+            return (Nota1  * 0.30)+ (Nota2 * 0.35) + (Nota3 * 0.35);
         }
     }
 }
